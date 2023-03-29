@@ -1,8 +1,8 @@
+import Routing from "./routing";
+
 function App() {
   return (
-    <>
-      Welcome to copper
-    </>
+    <Routing />
   );
 }
 

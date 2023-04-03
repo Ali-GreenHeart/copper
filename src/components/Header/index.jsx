@@ -25,7 +25,8 @@ const Header = () => {
         <header
             style={{
                 backgroundImage: `url("${headerBg}")`,
-                position: 'sticky'
+                position: 'sticky',
+                height: '80px'
             }}
             className={styles.header}>
             <Container maxWidth="lg"

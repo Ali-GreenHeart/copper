@@ -5,7 +5,7 @@ const PageContainer = ({ children }) => {
     return (
         <>
             <Header />
-            <main>
+            <main style={{ minHeight: `calc(100vh - 300px)` }}>
                 {children}
             </main>
             <Footer />
